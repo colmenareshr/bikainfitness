@@ -1,0 +1,12 @@
+# Archivos de configuración y dependencias del sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Evitar accidentalmente versionar plugins o uploads si están en la misma carpeta
+../plugins/
+../uploads/
+
+# Archivos específicos de desarrollo
+*.log
