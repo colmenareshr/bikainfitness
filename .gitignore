@@ -1,12 +1,24 @@
-# Archivos de configuración y dependencias del sistema
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
+# Archivos del sistema operativo y del editor
+.DS_Store         # macOS
+Thumbs.db         # Windows
+desktop.ini       # Windows
+.idea/            # Configuración de IDE como PhpStorm o WebStorm
+.vscode/          # Configuración de Visual Studio Code
 
-# Evitar accidentalmente versionar plugins o uploads si están en la misma carpeta
-../plugins/
-../uploads/
+# Archivos de compilación y dependencias de Node.js (si usas Node.js)
+node_modules/     # Carpeta de dependencias de Node.js
+npm-debug.log*    # Logs de errores de npm
+yarn-error.log*   # Logs de errores de Yarn
+dist/             # Carpeta de distribución, si generas archivos compilados
 
-# Archivos específicos de desarrollo
-*.log
+# Dependencias de PHP (si usas Composer)
+vendor/           # Carpeta de dependencias de PHP
+
+# Archivos de backup y logs
+*.log             # Cualquier archivo de log
+*.bak             # Archivos de respaldo
+*.backup          # Archivos de respaldo adicionales
+
+# Configuración del sistema de control de versiones y archivos ocultos
+.svn/             # Archivos de Subversion (SVN)
+.hg/              # Archivos de Mercurial (HG)
