@@ -1,0 +1,17 @@
+/*
+Theme Name: Bikain Fitness
+Theme URI: https://colmenadev.com
+Author: Humberto Colmenares
+Author URI: https://colmenadev.com
+Description: A custom WordPress theme tailored for Bikain Academy, a CrossFit gym. The theme features a clean, responsive design with integrated SCSS, dynamic class schedules, and WhatsApp booking functionality.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bikain-fitness
+Tags: responsive, clean, modern, fitness, scss, crossfit, custom-theme
+GitHub Theme URI: https://github.com/colmenareshr/bikainfitness
+*/
+
+/* This file is required by WordPress and defines the theme's meta information. */
+/* Import SCSS styles */
+@import 'assets/css/main.css';

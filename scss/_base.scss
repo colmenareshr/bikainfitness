@@ -1,0 +1,35 @@
+/* scss/_base.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Anton', sans-serif;
+}
+
+.horarios-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.horario-item {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: calc(33.333% - 20px);
+  text-align: center;
+}
+
+.whatsapp-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.whatsapp-link:hover {
+  background: #1b9f4e;
+}
