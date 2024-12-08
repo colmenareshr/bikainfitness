@@ -1,4 +1,5 @@
 <?php
+require get_template_directory() . '/inc/custom-post-types.php';
 /**
  * Bikain Fitness Functions
  * Theme setup and custom theme supports.
@@ -148,3 +149,4 @@ function bikain_add_whatsapp_link($class_name) {
 if (defined('WP_DEBUG') && WP_DEBUG) {
     error_log('Bikain Fitness: Debugging is enabled.');
 }
+

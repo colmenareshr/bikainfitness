@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "sass": "node-sass -w assets/scss/ -o assets/css/"
   }
 }
