@@ -14,4 +14,4 @@ GitHub Theme URI: https://github.com/colmenareshr/bikainfitness
 
 /* This file is required by WordPress and defines the theme's meta information. */
 /* Import SCSS styles */
-@import 'assets/css/main.css';
+@import "assets/css/main.css";
